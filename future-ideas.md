@@ -1,0 +1,12 @@
+- Use DB where connections are between two people and have a type like mother father sister etc
+- Allow for addition of stories…people can be tagged in stories so that there’s not a one to one relationship; people can have more than one story
+- One account should be able to make more than one tree
+- Things to save about each person: birth name, current name, sex, birthdate, death date, country of origin, whether currently alive or not, name titles (prefixes and suffixes), birth place, death place, relationship (i.e. step foster adopted)
+  - Save last names (both maiden and current) separately for ease of searching
+- Backend framework: Go + Postgres? Ruby on Rails? Need something very performant to load huge family trees…
+- Brendan’s ideas for the future: audio, profile pictures, auto-loading, life events/history, handle weird relationships like grandkids who marry each other (duplicates)
+- Also: facts about specific people (ex. this person was a king), option to link to Wikipedia pages or other webpages about the person
+- Ability for one user to invite another user to collaborate on a tree (would need RBAC prolly)
+- Also for the future: feature where you can input two people and see ALL ways they are related
+- Future: take GEDCOM file from another site and generate new tree; export tree to GEDCOM
+- Future: add fuzzy match for name searching

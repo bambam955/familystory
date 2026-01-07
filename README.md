@@ -1,2 +1,3 @@
-# familystory
-Build and share your family's story
+# FamilyStory
+
+Build and share your family's story.
